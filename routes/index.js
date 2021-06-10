@@ -6,7 +6,7 @@ var { google } = require("googleapis");
 const googleConfig = {
     clientId: process.env.GOOGLE_OAUTH_ID,
     clientSecret: process.env.GOGOLE_OAUTH_SECRET,
-    redirect: 'http://localhost:3000/google_callback',
+    redirect: 'https://info-expert.herokuapp.com/google_callback',
 }
 
 const defaultScope = [
